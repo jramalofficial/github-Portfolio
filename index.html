@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <main>
+        <article id="frontpage">
+            <article id="firstpage">
+                <h3 class="tags" id="htmlt">&lt;html&gt;</h3>
+                <h3 class="tags" id="bodyt">&lt;body&gt;</h3>
+                <h3 class="tags h1t">&lt;h1&gt;</h3>
+                <section id="head">
+                    <h1 class="heading">Hi,</h1>
+                    <h1 class="heading">I am <span id="name">Amal J R,</span></h1>
+                    <h1 class="heading">Software developer</h1>
+                </section>
+                <h3 class="tags h1t" id="h1ct">&lt;/h1&gt;</h3>
+                <button id="connect" onclick="window.location.href='https://www.linkedin.com/in/akhiljr?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app';">
+                    Let's Connect
+                </button>                
+                <h3 id="scroll">SCROLL DOWN</h3>
+                <img src="arrow.png" id="scrollImg">
+            </article>
+            <nav id="navbar">
+                <ul id="nav-list">
+                    <li class="navContent" id="currentContent"><button class="navbtn" onclick="scrollToField('about')">Home</button></li>
+                    <li class="navContent"><button class="navbtn" onclick="scrollToField('skills')">My Skills</button></li>
+                    <li class="navContent"><button class="navbtn" onclick="scrollToField('work')">Work</button></li>
+                    <li class="navContent"><button class="navbtn" onclick="scrollToField('contact')">Contact</button></li>
+                </ul>
+                <div id="circle"></div>
+            </nav>
+        </article>
+        <article id="secondpage">
+            <section id="aboutpage">
+                <h3 class="tags h1t">&lt;h1&gt;</h3>
+                <h1 id="about">About Me</h1>
+                <h3 class="tags h1t" id="h1ct">&lt;/h1&gt;</h3>
+                <h3 class="tags h1t">&lt;p&gt;</h3>
+                <p id="aboutpara">I am a passionate software developer with expertise in Java, Python, and web development. 
+                    I have experience working with backend technologies like Spring Boot and MySQL, 
+                    along with IoT and AI-based applications. 
+                    I enjoy building innovative solutions, 
+                    from smart agriculture systems to AI-powered tools. 
+                    With a strong problem-solving mindset, 
+                    I actively explore new technologies, 
+                    work on real-world projects, 
+                    and continuously improve my skills. 
+                    My goal is to develop impactful 
+                    software solutions that make a difference.</p>
+                <h3 class="tags h1t" id="h1ct">&lt;/p&gt;</h3>
+            </section>
+            <img src="RobotPC-min.png" id="aboutimg">
+        </article>
+        <article id="thirdpage">
+            <section id="skills">
+                <h3 class="tags" id="skilltag">&lt;h1&gt;</h3>
+                <h1 id="skillhead">Know my skills</h1>
+                <h3 class="tags" id="skilltagcl">&lt;/h1&gt;</h3>
+            </section>
+            <section id="skillcontainer">
+                <section class="skillblock">
+                    <img src="technology (1).png" class="skillimg">
+                    <h3 class="skillname">HTML/CSS</h3>
+                </section>
+                <section class="skillblock">
+                    <img src="python.png" class="skillimg">
+                    <h3 class="skillname">PYTHON</h3>
+                </section>
+                <section class="skillblock">
+                    <img src="java.png" class="skillimg">
+                    <h3 class="skillname">JAVA</h3>
+                </section>
+                <section class="skillblock">
+                    <img src="icons8-c-480.png" class="skillimg">
+                    <h3 class="skillname">C LANGUAGE</h3>
+                </section>
+                <section class="skillblock">
+                    <img src="icons8-spring-boot-480.png" class="skillimg">
+                    <h3 class="skillname">SPRING BOOT</h3>
+                </section>
+            </section>
+        </article>
+        <article id="fourthpage">
+            <section id="work">
+                <h3 class="tags" id="worktag">&lt;h1&gt;</h3>
+                <h1 id="workhead">View my work</h1>
+                <h3 class="tags" id="worktagcl">&lt;/h1&gt;</h3>
+                <h3 class="tags" id="worktag">&lt;h1&gt;</h3>
+                <h1 id="projecthead">Next Generation Farmer Assistant For Precision Agriculture</h1>
+                <h3 class="tags" id="worktagcl">&lt;/h1&gt;</h3>
+                <h3 class="tags" id="worktag">&lt;p&gt;</h3>
+                <section id="workphoto">
+                    <p id="workcontent">The Next-Generation Farmer 
+                        Assistant is a smart farming system using IoT, 
+                        AI, and data analytics to improve agriculture.
+                         It monitors temperature, soil moisture, humidity,
+                          light, and rainfall in real time and automates water
+                           pumping. Farmers can manage their farms remotely,
+                            sell products, and chat with others through a web 
+                            dashboard. An AI-powered tool helps detect leaf diseases
+                             and suggest remedies. A financial management feature
+                              tracks income and expenses with automated reports. 
+                              Built with Java Spring Boot, MySQL, and ESP8266, this 
+                              system boosts efficiency, 
+                        sustainability, and profitability in farming.</p>
+                        <img src="9837494.png" id="workimg">
+                </section>
+            </section>
+        </article>
+        <article id="fifthpage">
+            <h3 class="tags" id="worktag">&lt;h1&gt;</h3>
+            <h1 id="contact">Contact</h1>
+            <h3 class="tags" id="worktagcl">&lt;/h1&gt;</h3>
+            <section id="contactsec">
+                <div id="contactdiv"><h3 id="contacttxt">Let's get Connected and Work Together</h3>
+                <button id="downloadbtn"><a href="https://drive.google.com/file/d/1mdlXA4_qerQG5LJ8DoFZrebp3xy809pj/view?usp=sharing" id="downloadlink">Download Resume</a></button></div>
+            </section>
+            <section id="social">
+                <h3 id="gmail">akhiljr050@gmail.com</h3>
+
+                <a href="https://www.linkedin.com/in/akhiljr?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><img src="icons8-linkedin-500 (1).png" class="sociallnk"></a>
+                <a href="https://github.com/akhiljrofficial"><img src="icons8-github-480.png" class="sociallnk"></a>
+            </section>
+        </article>
+        <script>
+            function scrollToField(field){
+                if(field=="skills"){
+                    document.getElementById("thirdpage").scrollIntoView({ behavior: "smooth" });
+                }
+                else if(field=="work"){
+                    document.getElementById("fourthpage").scrollIntoView({ behavior: "smooth" });
+                }
+                else if(field=="contact"){
+                    document.getElementById("fifthpage").scrollIntoView({ behavior: "smooth" });
+                }
+                else if(field=="about"){
+                    document.getElementById("secondpage").scrollIntoView({ behavior: "smooth" });
+                }
+            }
+        </script>
+</body>
+</html>

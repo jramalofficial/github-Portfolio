@@ -1,0 +1,288 @@
+@import url("https://fonts.googleapis.com/css2?family=Qwigley&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Ephesis&family=Poppins:ital");
+@import url("https://fonts.googleapis.com/css?family=Poppins");
+*{
+    background-color: #003153;
+    box-sizing: border-box;
+}
+.tags{
+    color: #156574;
+    font-family:'Qwigley' ;
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 0rem;
+}
+#htmlt{
+    margin-left: 44px;
+}
+#bodyt{
+    margin-left: 76px;
+}
+.h1t{
+    margin-left:117px;
+}
+
+#head{
+    margin-left: 113px;
+}
+
+.heading{
+    color: white;
+    font-family: "Poppins",serif;
+    font-weight:bold;
+    font-size:96px;
+    line-height: 1;
+    margin: 0;
+    padding: 0;
+}
+#name{
+    font-family: "Qwigley", serif;
+    color: #39FF14;
+    letter-spacing: 8px;
+}
+#connect{
+    border: none;
+    border: 3px solid #39FF14;
+    border-radius: 5px;
+    padding:1rem 2rem;
+    margin: 20px 0 0 113px;
+    color: #39FF14;
+    font-family: "Poppins",serif;
+    font-size: 20px;
+}
+#frontpage{
+    display: flex;
+}
+#nav-list{
+    display: flex;
+    font-family: "Poppins",serif;
+    font-size: 20px;
+    gap: 2rem;
+    list-style: none;
+    
+}
+#circle{
+    width: .5rem;
+    height: .5rem;
+    border-radius: 50%;
+    background-color: #39FF14;
+    margin: 0;
+    padding: 0;
+    margin-left: 4rem;
+    margin-top: -1rem;
+}
+.navContent{
+    color: white;
+}
+#currentContent{
+    color: #39FF14;
+}
+#scroll{
+    font-family: "Poppins",serif;
+    color: #289EB4; 
+    width: max-content;
+    margin: 0;
+    margin-top: 1rem;
+    margin-left: 65%;
+    
+}
+#scrollImg{
+    width:3rem;
+    height: 2rem;
+    margin-top: .1rem;
+    margin-left:69% ;
+}
+#about{
+    color:#4BE3AC;
+    font-family: "Poppins",serif;
+    font-weight:bold;
+    font-size:96px;
+    line-height: 1;
+    margin: 0;
+    padding: 0;
+    margin-left: 117px;
+}
+#aboutpara{
+    font-family: "Poppins",serif;
+    font-weight: 200;
+    font-size: 24px;
+    color: white;
+    margin-left: 117px;
+    width: 50rem;
+    text-align: justify;
+}
+#secondpage{
+    display: flex;
+}
+#thirdpage{
+    background-color: black;
+    height: 832px;
+    width: 100%;
+}
+#aboutimg{
+    height: 50rem;
+    margin: 0;
+    padding: 0;
+    margin-left: 4rem;
+    margin-top: 1rem;
+}
+#skills{
+    border: 2px solid rgb(0, 0, 0);
+    background-color: black;
+}
+#skilltag{
+    margin-bottom: 0;
+    margin-left: 117px;
+}
+#skillhead{
+    color: #289EB4;
+    background-color: black;
+    font-family: "Poppins",serif;
+    font-weight: 700;
+    font-size: 96px;
+    margin: 0;
+    margin-left: 117px;
+}
+#skilltagcl{
+    margin-top: 0;
+    margin-left: 117px;
+}
+#skillcontainer{
+    background-color: black;
+    border: 1px solid black;
+}
+#skillcontainer{
+    display: flex;
+    background-color: black;
+    gap: 85px;
+    justify-content: center;
+}
+.skillblock{
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center ;
+}
+.skillimg{
+    width: 104px;
+    height: 116px;
+    background-color: black;
+}
+.skillname{
+    font-family: "Poppins",serif;
+    color: #39FF14;
+    margin: 0;
+    background-color: black;
+}
+#fourthpage{
+    background-color: #003153;
+}
+#work{
+    background-color: #003153;
+}
+#worktag{
+    margin-bottom: 0;
+    margin-left: 117px;
+}
+#workhead{
+    color: #289EB4;
+    background-color:#003153;
+    font-family: "Poppins",serif;
+    font-weight: 700;
+    font-size: 96px;
+    margin: 0;
+    margin-left: 117px;
+}
+#worktagcl{
+    margin-top: 0;
+    margin-left: 117px;
+}
+#workcontent{
+    font-family: "Poppins",serif;
+    font-weight: 200;
+    font-size: 24px;
+    color: white;
+    margin-left: 117px;
+    width: 50rem;
+    text-align: justify;
+}
+#projecthead{
+    font-family: "Qwigley", serif;
+    color: #39FF14;
+    letter-spacing: 5px;
+    margin: 0;
+    margin-left: 117px;
+    font-size: 3rem;
+}
+#workphoto{
+    display: flex;
+    gap: 1rem;
+}
+#workimg{
+    width: 35rem;
+    height: 30rem;
+}
+#contactdiv{
+    background-color: #39FF14;
+    height: 10rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    width: 60rem;
+    border-radius: 10px;
+    padding: 1rem 2rem;
+    margin-top: 3rem;
+}
+#contacttxt{
+    color: black;
+    font-family: "Poppins",serif;
+    font-weight: 600;
+    font-size: 30px;
+    background-color: #39FF14;
+}
+#contact{
+    color: #289EB4;
+    margin: 0;
+    margin-left: 117px;
+    font-size: 96px;
+}
+
+#downloadbtn{
+    color: black;
+    border: 2px solid black;
+    border-radius: 5px;
+    background-color: #39FF14;
+    width: 10rem;
+    height: 2rem;
+}
+#downloadlink{
+    background-color: #39FF14;
+    font-family: "Poppins",serif;
+    color: black;
+}
+#contactsec{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#social{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4rem;
+    padding: 5rem;
+}
+.sociallnk{
+    width: 5rem;
+    height: 5rem;
+}
+#gmail{
+    color: white;
+}
+.navbtn{
+    border: none;
+    color: #39FF14;
+    font-family: "Poppins",serif;
+    font-size: 20px;
+}
